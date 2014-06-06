@@ -10,3 +10,4 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 . ~/.bashrc
 
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+git clone https://github.com/jf/rbenv-gemset.git ~/.rbenv/plugins/rbenv-gemset
