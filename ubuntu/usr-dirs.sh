@@ -1,4 +1,4 @@
 #!/bin/bash
 
-LANG=C xdg-user-dirs-update
+LANG=C xdg-user-dirs-update --force
 
