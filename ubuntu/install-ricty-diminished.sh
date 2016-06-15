@@ -1,8 +1,10 @@
 #!/bin/bash -ue
 
-TMPDIR=$(mktemp -d)
+sudo true
 
+TMPDIR=$(mktemp -d)
 cd $TMPDIR
+
 wget https://github.com/yascentur/RictyDiminished/archive/4.0.1.zip
 unzip 4.0.1.zip
 
