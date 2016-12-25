@@ -13,7 +13,7 @@ echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
 . $HOME/.asdf/asdf.sh
 
 asdf plugin-add go https://github.com/kennyp/asdf-golang
-asdf plugin-add node https://github.com/asdf-vm/asdf-nodejs
+asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs
 asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby
 
 # Setup GOPATH
