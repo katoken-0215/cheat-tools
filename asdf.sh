@@ -15,6 +15,8 @@ echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
 asdf plugin-add go https://github.com/kennyp/asdf-golang
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs
 asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby
+asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
+asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
 
 # Setup GOPATH
 echo >> ~/.bashrc
