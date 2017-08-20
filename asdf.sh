@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install -y automake autoconf libreadline-dev libncurses-dev libssl-dev libyaml-dev libxslt-dev libffi-dev libtool unixodbc-dev
+sudo apt install -y automake autoconf libreadline-dev libncurses-dev libssl-dev libyaml-dev libxslt-dev libffi-dev libtool unixodbc-dev unzip
 
 rm -rf ~/.asdf
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf
@@ -17,6 +17,9 @@ asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs
 asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby
 asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
 asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
+
+# Setup Node.js
+bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
 # Setup GOPATH
 echo >> ~/.bashrc
